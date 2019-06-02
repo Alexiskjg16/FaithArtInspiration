@@ -31,7 +31,7 @@ import { useStaticQuery, graphql, Link } from "gatsby";
      {data.allContentfulBlogPost.edges.map((edges) => {
                     return (
                       <li>
-                        <Link to={`/blog/${edges.node.title}`}>
+                        <Link to={`/blog/${edges.node.slug}`}>
                         <h2>{edges.node.title}</h2>
                         <p>{edges.node.date}</p>
                         </Link>
