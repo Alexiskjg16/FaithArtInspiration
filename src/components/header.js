@@ -4,10 +4,8 @@ import headerStyles from '../styles/header.module.scss'
 
  const Index = () => {
  return ( 
- <div>
-     {/* <div>
-         ![Faith-Art-Logo](./banner.jpg)
-     </div> */}
+ <div className={headerStyles.allContent}>    
+          {/* ![Faith](./banner.jpg)  */}
      <h1>Faith Art Inspiration</h1>
      <ul className={headerStyles.navList}>
         <li> <Link className={headerStyles.Links} to="/" activeClassName={headerStyles.activeLinks}>Home</Link></li>

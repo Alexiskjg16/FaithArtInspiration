@@ -1,0 +1,18 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 2rem;
+    margin: 3rem;
+    text-decoration: none;
+}
+
+.indvItem {
+    text-decoration: none;
+    padding: 1rem;
+    color: #000000
+}
+
+.indvItem:hover {
+    color: #9225a0,
+}

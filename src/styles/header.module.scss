@@ -1,20 +1,27 @@
+
+.allContent {
+    width: 800px;
+}
+
 .navList {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style: none;
     text-decoration: none;
-    margin: 0 2em;
+    padding-bottom: 1rem;
+    border-bottom: 0.1rem solid grey;
+    width: 100%;
 }
 
 .Links {
     text-decoration: none;
-    font-size: .9rem;
+    font-size: 1.5rem;
     color: #999999;
 }
 
 .Links:hover {
-    color: #666666;
+    color: #9225a0;
 }
 
 .activeLinks {
