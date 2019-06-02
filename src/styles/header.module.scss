@@ -1,0 +1,22 @@
+.navList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    margin: 0 2em;
+}
+
+.Links {
+    text-decoration: none;
+    font-size: .9rem;
+    color: #999999;
+}
+
+.Links:hover {
+    color: #666666;
+}
+
+.activeLinks {
+    color: #333333;
+}
