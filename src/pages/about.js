@@ -1,10 +1,13 @@
 import React from "react"
 import Layout from "../components/layout"
+import Head from "../components/head"
+
 
 
  const About = () => {
  return ( 
  <Layout>
+      <Head title="About" />
      <h1>About</h1>
      <h1>Faith Art Inspiration</h1>
  </Layout>
