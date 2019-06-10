@@ -1,6 +1,16 @@
 
 .allContent {
-    width: 800px;
+    width: 100vw;
+    background-color: rgb(177, 90, 177);
+    margin-left: -21.5rem;
+    margin-top: -3rem;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    font-size: 42px;
 }
 
 .navList {
@@ -11,7 +21,7 @@
     text-decoration: none;
     padding-bottom: 1rem;
     border-bottom: 0.1rem solid grey;
-    width: 100%;
+    
 }
 
 .Links {

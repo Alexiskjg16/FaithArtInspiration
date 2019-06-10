@@ -9,9 +9,10 @@ import contactStyles from '../styles/contact.module.scss'
  <Layout>
       <Head title="Contact" />
       <section className={contactStyles.content}>
-             <a href="https://www.facebook.com/faithartinspiration/"  target="_blank" rel="noopener noreferrer" className={contactStyles.indvItem}> Facebook</a>
-             <a href="https://www.instagram.com/faithartinspiration/"  target="_blank" rel="noopener noreferrer" className={contactStyles.indvItem}>Instagram</a>
-             <a href="mailto:stampinhands04@gmail.com"  target="_blank" rel="noopener noreferrer" className={contactStyles.indvItem}>Email</a>
+             <a href="https://www.facebook.com/faithartinspiration/" target="_blank" rel="noopener noreferrer" className={contactStyles.indvItem}>Facebook</a>
+             <a href="https://www.instagram.com/faithartinspiration/" target="_blank" rel="noopener noreferrer" className={contactStyles.indvItem}>Instagram</a>
+             <a href="mailto:stampinhands04@gmail.com" target="_blank" rel="noopener noreferrer" className={contactStyles.indvItem}>Email</a>
+             <a href="https://www.youtube.com/user/stampinhands" target="_blank" rel="noopener noreferrer"  className={contactStyles.indvItem}>Youtube</a>
              </section>
  </Layout>
  )

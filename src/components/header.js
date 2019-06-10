@@ -6,7 +6,7 @@ import headerStyles from '../styles/header.module.scss'
  return ( 
  <div className={headerStyles.allContent}>    
           {/* ![Faith](./banner.jpg)  */}
-     <h1>Faith Art Inspiration</h1>
+     <h1 className={headerStyles.title}>Faith Art Inspiration</h1>
      <ul className={headerStyles.navList}>
         <li> <Link className={headerStyles.Links} to="/" activeClassName={headerStyles.activeLinks}>Home</Link></li>
         <li> <Link className={headerStyles.Links} to="/about" activeClassName={headerStyles.activeLinks}>About</Link></li>
