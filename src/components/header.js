@@ -1,11 +1,12 @@
 import React from "react"
 import { Link } from 'gatsby'
 import headerStyles from '../styles/header.module.scss'
+import Faith from './banner.jpg'
 
  const Index = () => {
  return ( 
  <div className={headerStyles.allContent}>    
-          {/* ![Faith](./banner.jpg)  */}
+          <img src={Faith} alt="Faith" className={headerStyles.Pictures}/>
      <h1 className={headerStyles.title}>Faith Art Inspiration</h1>
      <ul className={headerStyles.navList}>
         <li> <Link className={headerStyles.Links} to="/" activeClassName={headerStyles.activeLinks}>Home</Link></li>
