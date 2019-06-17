@@ -7,7 +7,6 @@ import Faith from './banner.jpg'
  return ( 
  <div className={headerStyles.allContent}>    
           <img src={Faith} alt="Faith" className={headerStyles.Pictures}/>
-     <h1 className={headerStyles.title}>Faith Art Inspiration</h1>
      <ul className={headerStyles.navList}>
         <li> <Link className={headerStyles.Links} to="/" activeClassName={headerStyles.activeLinks}>Home</Link></li>
         <li> <Link className={headerStyles.Links} to="/about" activeClassName={headerStyles.activeLinks}>About</Link></li>
